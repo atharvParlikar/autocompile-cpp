@@ -3,8 +3,8 @@ import os
 import time
 
 starttime = time.time()
-filepath = ""
-compilecpp = ""
+filepath = "" # enter the full filepath here...
+compilecpp = "" # enter your compile command here...
 
 with open(filepath, 'rb') as f:
     fileHash = hashlib.md5(f.read()).hexdigest()    
