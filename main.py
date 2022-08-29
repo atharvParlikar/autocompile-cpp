@@ -4,7 +4,7 @@ import time
 
 starttime = time.time()
 filepath = "" # enter the full filepath here...
-compilecpp = "" # enter your compile command here...
+compilecpp = "" # enter your compile command here... normally it will be something like g++ filename.cpp or filename.c
 
 with open(filepath, 'rb') as f:
     fileHash = hashlib.md5(f.read()).hexdigest()    
